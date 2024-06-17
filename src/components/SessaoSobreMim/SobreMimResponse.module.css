@@ -1,0 +1,164 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        flex-direction: column;
+        text-align: center;
+    }
+    /*Headline*/
+    .headline span  {
+        font-size: 1.6rem;
+    }
+
+    .headline h1  {
+        font-size: 3rem;
+    }
+
+    /*About, Skills*/
+    .about {
+        width: 92%;
+    }
+
+    .imgAbout {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imgAbout img  {
+        width: 100%;
+    }
+
+    .contentAboutleft h1 {
+        font-size: 2rem;
+    }
+
+    .ctaAbout {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        padding-top: 1.6rem;
+    }
+    
+    .btnAbout {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    
+    .aboutSocial {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        flex-direction: row;
+        gap: 0.8rem;
+        cursor: pointer;
+        height: 100%;
+        padding: 0;
+    }
+
+}
+/* Estilos para desktops */
+@media (min-width: 1025px) {
+    body  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*Headline*/
+    .headline span > {
+        font-size: 1.6rem;
+    }
+
+    .headline h1 > {
+        font-size: 3.1rem;
+    }
+
+    /*About*/
+    .about {
+        width: 95%;
+        height: calc(100vh - 90px);
+    }
+
+    .containerAbout {
+        height: calc(100vh - 90px);
+        display: flex;
+        align-items: center;
+    }
+
+    .contentAbout {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .contentAboutlef {
+        width: 50%;
+        height: 100%;
+    }
+
+    .contentAboutRight {
+        width: 50%;
+        height: 100%;
+    }
+
+    .imgAbout  img {
+        width: 100%;
+    }
+
+    .contentAboutleftt h1 {
+        font-size: 2rem;
+    }
+
+    .ctaAbout {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        padding-top: 1.6rem;
+    }
+    
+    .btnAbout {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    
+    .aboutSocial {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        flex-direction: row;
+        gap: 0.8rem;
+        cursor: pointer;
+        height: 100%;
+        padding: 0;
+    }
+
+
+    /*Skills*/
+    
+}

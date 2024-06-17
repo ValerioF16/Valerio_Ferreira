@@ -1,0 +1,144 @@
+.formatar {
+    text-decoration: none;list-style: nones;
+
+}
+.spanAnalise{
+    color: rgb(0, 119, 182);;
+}
+.n2 {
+    font-family: "roboto", sans-serif;
+    font-size: 1.2 rem;
+    font-weight: bold;
+    margin-top: 50px;
+    /*margin: 10px;
+    width: 180px;
+    height: 180px;
+    background: url('./medusa2.png');
+    background-size: cover;*/
+}
+/*ESTILIZANDO A PARTE DO CABEÇAIO DO SITE*/
+
+.lista  {
+    display: inline-block;
+    margin: 30px;
+}
+
+.n1 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+a {
+    color: black;
+    transition: 0,5s all;
+}
+.linkz1 {
+    margin-right: 20px;
+    padding: 5px;
+    position: relative;
+    
+    
+}
+.linkz1:hover {
+    font-size: 12pt;
+    transition:0.2s ;
+}
+.linkz1::after {
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: rgb(0, 119, 182);;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+.linkz1:hover::after {
+    width: 100%;
+    background: rgb(0, 119, 182);;    
+}
+.linkz2 {
+    margin-right: 20px;
+    padding: 5px;
+    position: relative;
+
+}
+.linkz2:hover {
+    font-size: 11pt;
+    transition:0.2s ;
+}
+.linkz2::after {
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: rgb(0, 119, 182);;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+.linkz2:hover::after {
+    width: 100%;
+    background: rgb(0, 119, 182);    
+}
+    
+
+.linkz3 {
+    margin-right: 20px;
+    padding: 5px;
+    position: relative;
+}
+.linkz3:hover {
+    font-size: 11pt;
+    transition:0.2s ;
+}
+.linkz3::after {
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: rgb(0, 119, 182);;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+.linkz3:hover::after {
+    width: 100%;
+    background: rgb(0, 119, 182);   
+}
+.linkz4 {
+    margin-right: 20px;
+    padding: 5px;
+    position: relative;
+}
+.linkz4::after {
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color:rgb(0, 119, 182);;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+.linkz4:hover {
+    font-size: 11pt;
+    transition:0.2s ;
+}
+.linkz4:hover::after {
+    width: 100%;
+    background: rgb(0, 119, 182);
+    
+}
+.linkz5 {
+    margin-right: 20px;
+    padding: 5px;
+    border: 2px solid rgb(0, 119, 182);
+    border-radius: 10px;
+}
+.linkz5:hover {
+    background: rgb(0, 119, 182);
+    
+}
