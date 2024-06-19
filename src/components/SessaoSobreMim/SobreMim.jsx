@@ -49,7 +49,7 @@ export function SobreMim() {
                         <div className={`${style.btnAbout} ${responsive.btnAbout}`} data-aos="fade-up">
                             <a href="#" target="_blank"><button className={`${style.btn} ${responsive.btn}`}>Visualizar DashBoard
                                     </button></a>
-                            <a href="#"
+                            <a href="https://www.mediafire.com/file/x14s2z79aplr1lu/curriculo_valerio.pdf/file"
                                 download="https://www.mediafire.com/file/x14s2z79aplr1lu/curriculo_valerio.pdf/file"><button className={`${style.btn} ${responsive.btn}`}>Download curriculo</button></a>
                         </div>
 
